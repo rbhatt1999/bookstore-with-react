@@ -6,6 +6,7 @@ const Book = (props) => {
     <div className="p-2">
       <h2>{title}</h2>
       <h3>{author}</h3>
+      <button type="submit">Delete</button>
     </div>
   );
 };
