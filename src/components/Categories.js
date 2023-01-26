@@ -10,10 +10,10 @@ const Categories = () => {
   };
 
   return (
-    <div className="p-2">
+    <div className="container">
       <span>{categories}</span>
       <br />
-      <button type="button" onClick={checkStatus}>
+      <button type="button" className="btn" onClick={checkStatus}>
         Check status
       </button>
     </div>
