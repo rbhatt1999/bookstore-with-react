@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import person from './man-person.svg';
 
 const Navigation = () => (
@@ -6,12 +6,12 @@ const Navigation = () => (
     <div className="flex">
       <h1 className="nav-title">Bookstore CMS</h1>
       <div className="nav-links flex items-center">
-        <Link to="/" className="nav-link">
+        <NavLink style={({ isActive }) => ({ color: isActive ? 'black' : '#aaa' })} end to="/" className="nav-link">
           BOOKS
-        </Link>
-        <Link to="/categories" className="nav-link">
+        </NavLink>
+        <NavLink style={({ isActive }) => ({ color: isActive ? 'black' : '#aaa' })} end to="/categories" className="nav-link">
           CATEGORIES
-        </Link>
+        </NavLink>
       </div>
     </div>
     <a href="/" className="nav-user">

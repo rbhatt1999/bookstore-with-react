@@ -6,12 +6,14 @@ import './css/styles.css';
 
 function App() {
   return (
-    <div className="App">
-      <Navigation />
-      <Routes>
-        <Route path="/" element={<Books />} />
-        <Route path="/categories" element={<Categories />} />
-      </Routes>
+    <div className="main-container">
+      <div className="App">
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<Books />} />
+          <Route path="/categories" element={<Categories />} />
+        </Routes>
+      </div>
     </div>
   );
 }

@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
+
 :root {
   --light-gray: #fafafa;
   --warm-gray: #888;
   --white: #fff;
   --white-two: #e8e8e8;
-  --light-blue: #0290ff;
+  --light-blue: #4386bf;
   --black: #121212;
   --container-padding: 6.25rem;
 }
@@ -20,8 +22,17 @@
 }
 
 body {
-  font-family: sans-serif;
-  background-color: var(--light-gray);
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f6fa;
+  padding: 4%;
+}
+
+.main-container {
+  margin: 0;
+  padding: 0 0 8%;
+  border-radius: 4px;
+  box-shadow: 0 0 60px 0 rgb(0 0 0 / 5%);
+  background-color: #fafafa;
 }
 
 nav {
@@ -47,6 +58,7 @@ nav {
   font-weight: normal;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1.9px;
 }
 
 .nav-link:hover {
@@ -99,12 +111,22 @@ nav {
 }
 
 .card {
-  padding: 1.75rem 1.68rem;
+  background-color: #fff;
   border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .book-title {
-  height: 1.813rem;
+  margin-top: 0.188rem;
+  font-size: 1.375rem;
+  letter-spacing: -0.2px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  color: #121212;
 }
 
 .theme-height {
@@ -184,7 +206,7 @@ input {
 .btn {
   padding: 0.801rem 1.188rem;
   border-radius: 3px;
-  background-color: var(--light-blue);
+  background-color: #0290ff;
   outline: none;
   border: none;
   color: var(--white);
@@ -241,4 +263,83 @@ input {
 
 .mt-2\.3 {
   margin-top: 2.3rem;
+}
+
+.book-category {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  opacity: 0.5;
+  font-weight: 700;
+  color: #121212;
+}
+
+.circular-progress {
+  border-radius: 50%;
+  width: 4.25rem;
+  height: 4.25rem;
+  border: 5px solid #307bbe;
+  border-left-color: #e8e8e8;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.card-left-container {
+  display: flex;
+  gap: 20px;
+}
+
+.primary-button {
+  cursor: pointer;
+  border: none;
+  background-color: #0290ff;
+  border-radius: 3px;
+  padding: 8px 24px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.progess-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.progress-bar h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #121212;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.progress-bar p {
+  font-family: "Montserrat", sans-serif;
+  color: #121212;
+  font-size: 0.875rem;
+  opacity: 0.5;
+}
+
+.current-chapter-label {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  color: #121212;
+  font-size: 0.813rem;
+  opacity: 0.5;
+}
+
+.current-chapter-name {
+  margin-top: 0.438rem;
+  font-size: 1rem;
+  letter-spacing: -0.4px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  color: #121212;
 }
