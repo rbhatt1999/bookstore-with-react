@@ -10,7 +10,7 @@ const Books = () => {
 
   useEffect(() => {
     dispatch(getBooksAction());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div>
