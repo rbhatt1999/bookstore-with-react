@@ -46,10 +46,8 @@
 </details>
 
 ### Key Features <a name="key-features"></a>
-
-> Below are the key features of the website:
-
-- **Used React.js**
+- **Add books with author and title**
+- **Store in API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,24 +57,41 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 Getting Started <a name="getting-started"></a>
+## 💻 Getting Started with Bookstore-with-react <a name="getting-started"></a>
 
-To get a local copy up and running follow these simple example steps.
+### Setup
 
-1. Clone this repository or download the Zip folder:
+Clone this [repository](https://github.com/rbhatt1999/bookstore-with-react.git) to your desired folder:
 
-**``git clone https://github.com/rbhatt1999/bookstore-with-react.git``**
+```sh
+  cd my-folder
+  git clone git@github.com:rbhatt1999/bookstore-with-react.git 
+  cd bookstore-with-react
+```
 
-2. Navigate to the location of the folder in your machine:
+### Install
 
-**``you@your-Pc-name:~$ cd <folder>``**
+Install this project with:
 
-### Visit And Open Files
-1-Visit Repo
-[Visit Repo](https://github.com/rbhatt1999/bookstore-with-react)
+```sh
+  npm install
+```
 
-2-Download Repo
-[Download Repo](https://github.com/rbhatt1999/bookstore-with-react/archive/refs/heads/dev.zip)
+### Start
+
+To start the application, run the following command
+
+```sh
+  npm start
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  npm test
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

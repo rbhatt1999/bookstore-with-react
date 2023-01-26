@@ -4,12 +4,12 @@ import { removeBookAction } from '../redux/books/books';
 
 const Book = (props) => {
   const { book } = props;
-  const { id, title, author } = book;
+  const { item_id: itemId, title, author } = book;
 
   const dispatch = useDispatch();
 
   const removeBook = () => {
-    dispatch(removeBookAction(id));
+    dispatch(removeBookAction(itemId));
   };
 
   return (
@@ -24,8 +24,11 @@ const Book = (props) => {
 };
 
 Book.propTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
-  book: propsType.object.isRequired,
+  book: propsType.shape({
+    item_id: propsType.string.isRequired,
+    title: propsType.string.isRequired,
+    author: propsType.string.isRequired,
+  }).isRequired,
 };
 
 export default Book;
