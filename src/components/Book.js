@@ -4,12 +4,12 @@ import { removeBookAction } from '../redux/books/books';
 
 const Book = (props) => {
   const { book } = props;
-  const { id, title, author } = book;
+  const { item_id: itemId, title, author } = book;
 
   const dispatch = useDispatch();
 
   const removeBook = () => {
-    dispatch(removeBookAction(id));
+    dispatch(removeBookAction(itemId));
   };
 
   return (

@@ -21,7 +21,14 @@ const AddBookForm = () => {
     event.preventDefault();
     if (title.trim() !== '' && author.trim() !== '') {
       const id = uuidv4();
-      dispatch(addBookAction({ id, title, author }));
+      dispatch(
+        addBookAction({
+          item_id: id,
+          title,
+          author,
+          category: 'Fiction',
+        }),
+      );
       setTitle('');
       setAuthor('');
     }
