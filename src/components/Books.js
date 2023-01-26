@@ -6,7 +6,6 @@ import { getBooksAction } from '../redux/books/books';
 
 const Books = () => {
   const books = useSelector((state) => state.books);
-
   const dispatch = useDispatch();
 
   useEffect(() => {
