@@ -57,34 +57,41 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 Getting Started <a name="getting-started"></a>
+## 💻 Getting Started with Bookstore-with-react <a name="getting-started"></a>
 
-To get a local copy up and running follow these simple example steps.
+### Setup
 
-1. Clone this repository or download the Zip folder:
+Clone this [repository](https://github.com/rbhatt1999/bookstore-with-react.git) to your desired folder:
 
-`cd my-folder`
+```sh
+  cd my-folder
+  git clone git@github.com:rbhatt1999/bookstore-with-react.git 
+  cd bookstore-with-react
+```
 
-`git clone https://github.com/rbhatt1999/bookstore-with-react.git`
+### Install
 
-2. Navigate to the location of the folder in your machine:
+Install this project with:
 
-`cd bookstore-with-react`
+```sh
+  npm install
+```
 
-3. Install dependencies:
+### Start
 
-`npm install`
+To start the application, run the following command
 
-4. start on local host:
+```sh
+  npm start
+```
 
-`npm start`
+### Run tests
 
-### Visit And Open Files
-1-Visit Repo
-[Visit Repo](https://github.com/rbhatt1999/bookstore-with-react)
+To run tests, run the following command:
 
-2-Download Repo
-[Download Repo](https://github.com/rbhatt1999/bookstore-with-react/archive/refs/heads/dev.zip)
+```sh
+  npm test
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
