@@ -46,10 +46,8 @@
 </details>
 
 ### Key Features <a name="key-features"></a>
-
-> Below are the key features of the website:
-
-- **Used React.js**
+- **Add books with author and title**
+- **Store in API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,11 +63,21 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone this repository or download the Zip folder:
 
-**``git clone https://github.com/rbhatt1999/bookstore-with-react.git``**
+`cd my-folder`
+
+`git clone https://github.com/rbhatt1999/bookstore-with-react.git`
 
 2. Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd <folder>``**
+`cd bookstore-with-react`
+
+3. Install dependencies:
+
+`npm install`
+
+4. start on local host:
+
+`npm start`
 
 ### Visit And Open Files
 1-Visit Repo
